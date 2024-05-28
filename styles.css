@@ -14,5 +14,14 @@ body {
 
 nav {
     display: inline-block;
-    padding: 10px 10px;
+    list-style-type: none;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    padding: 10px 20px;
 }
