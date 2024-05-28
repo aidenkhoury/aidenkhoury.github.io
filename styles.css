@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: lightslategray;
+    background-color: rgb(169, 180, 192);
     font-family: 'Times New Roman', Times, serif;
     font-weight: normal;
     padding: 10px 5px;
@@ -24,4 +24,12 @@ li {
     list-style-type: none;
     text-align: center;
     padding: 10px 20px;
+}
+
+.red {
+    color: red;
+}
+
+.white {
+    background-color: white;
 }
