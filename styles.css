@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+h3 {
+    font-size: 26px;
+}
+
 .container {
     
     font-family: serif;
@@ -30,9 +34,34 @@
     margin: 20px auto;
 }
 
+.font-title {
+    text-decoration: underline;
+}
+
+.font-panel {
+    display: inline-block;
+    width: 42%;
+    min-height: 100px;
+    text-align: left;
+    margin: 20px auto;
+}
+
+.font-panel p {
+    word-spacing: 3px;
+    font-size: 20px;
+}
+
 .colour-panel p {
     display: block;
     margin-block: 20px auto;
+}
+
+.style_container {
+    padding: 20px;
+}
+
+.style_container li {
+    font-size: 20px;
 }
 
 .lightgrey {
@@ -49,4 +78,24 @@
 
 .lightblue {
     background-color: rgb(148, 182, 207);
+}
+
+.nunito {
+    font-family: Nunito;
+}
+
+.bebas {
+    font-family: 'Bebas Neue';
+}
+
+.prompt {
+    font-family: Prompt;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
 }
